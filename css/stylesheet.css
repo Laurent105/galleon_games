@@ -688,7 +688,7 @@ input[type="search"] {
 .video__wrapper {
   position: relative;
   width: 668px;
-  width-height: 380px;
+  height: 380px;
   border-radius: 18px;
   border: 4px solid #FFFFFF;
   display: block;
@@ -2183,7 +2183,7 @@ input[type="search"] {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    align-item: center;
+    align-items: center;
     padding-bottom: 30px;
   }
 
