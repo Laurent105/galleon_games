@@ -2222,7 +2222,7 @@ input[type="search"] {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    align-item: center;
+    align-items: center;
     padding-bottom: 30px;
   }
 
