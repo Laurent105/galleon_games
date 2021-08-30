@@ -826,7 +826,6 @@ input[type="search"] {
 }
 
 .screenshots {
-  padding: 150px 0 100px 0;
   position: relative;
   background: -webkit-gradient(linear, left top, left bottom, from(#FAFAFA), color-stop(0%, #FAFAFA), color-stop(0.01%, #F0FBFF), to(rgba(240, 251, 255, 0)));
   background: -o-linear-gradient(top, #FAFAFA 0%, #FAFAFA 0%, #F0FBFF 0.01%, rgba(240, 251, 255, 0) 100%);
@@ -1489,6 +1488,18 @@ input[type="search"] {
 /* Medium Devices, Desktops */
 
 /* Small Devices, Tablets */
+
+@media (max-width: 3000px) {
+  .screenshots {
+    padding: 200px 0 100px 0;
+  }
+}
+
+@media (max-width: 2000px) {
+  .screenshots {
+    padding: 150px 0 100px 0;
+  }
+}
 
 @media (max-width: 1800px) {
   .back_To_Top {
